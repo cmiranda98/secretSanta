@@ -1,0 +1,134 @@
+/*CSS COMUN*/
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    margin: 0 0;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+/*CSS COMUN*/
+/*ANTD EXTRAS*/
+
+.btn-black {
+    background-color: transparent !important;
+    color: #2b2b2b !important;
+    border-radius: 5px !important;
+    border: 1px solid #2b2b2b !important;
+}
+
+.btn-black:hover,
+.btn-black:active {
+    background-color: #2b2b2b !important;
+    color: #ffffff !important;
+    border: 1px solid #000000 !important;
+}
+
+.btn-black:focus-visible {
+    outline: none !important;
+}
+
+.error404 {
+    width: 250px;
+}
+
+.errorBoundary {
+    width: 250px;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    background-color: #C8102E;
+    font-weight: 600;
+    font-size: 40px;
+    color: #f0f0f0;
+    border-bottom: 10px solid #003500;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-layout-content {
+    padding: 50px 35px;
+}
+
+iframe {
+    display: none !important;
+    /* PATCH TO DISABLE REACT-SCRIPTS OVERLAY */
+}
+
+.ant-tree-list-holder {
+    padding: 10px 20px;
+}
+
+.ant-tree-node-content-wrapper {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ant-tree-node-content-wrapper:hover,
+.ant-tree-checkbox+span:hover {
+    background-color: #cacaca !important;
+}
+
+.btn-remove {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.santa-card {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.santa-card:last-of-type {
+    margin-bottom: 0px !important;
+}
+
+.santa-card svg {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+/*ANTD EXTRAS*/
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header {
+        font-size: 18px;
+    }
+}
